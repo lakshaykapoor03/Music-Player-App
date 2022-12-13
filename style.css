@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round:regular);
+
+body{
+    background-color: rgb(179, 179, 179);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    height:10%;
+    font-family: 'Varela Round';
+    
+}
+
+
+li{
+    list-style-type: none;
+    margin-left: 20px;
+    color: aliceblue;
+    margin-top: 12px;
+}
+
+
+.spotify{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.container{
+    width: 80vw;
+    height:70vh;
+    background-image: url(/bg.jpg);
+    margin-top: 80px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 200px;
+    
+}
+
+.footer{
+    width: 100vw;
+   height: 100px;
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+   
+  
+}
+
+.music-line{
+    width: 80%;
+    height: 5px;
+    margin-left: 9%;
+    cursor: pointer;
+}
+
+.music-icons{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+/* 
+.bg-img{
+   position: relative;
+   top: 25%;
+} */
+.songs{
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.song-details{
+    background-color: #fff;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+   margin-top: 20px;
+   margin-left: 50px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.song-name{
+    font-family: 'Varela Round';
+}
+
+.song-img{
+border-radius: 50%;
+}
+
+#gif{
+    opacity: 0;
+    transition:opacity 0.5s ease-in;
+  position: absolute;
+  top: 93%;
+  left: 10%;
+}
+   
+
+  .small-song-name{
+    position: absolute;
+    top: 93.3%;
+    left: 14%;
+    color: #fff;
+    font-family: 'Varela Round';
+  }
+
+
+

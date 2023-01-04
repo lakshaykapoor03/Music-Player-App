@@ -31,13 +31,13 @@ li{
 }
 
 .container{
-    width: 80vw;
-    height:70vh;
+    width: 100vw;
+    height:100vh;
     background-image: url(/bg.jpg);
     margin-top: 80px;
     border-radius: 10px;
     display: flex;
-    margin-left: 200px;
+margin: 40px;
     
 }
 
@@ -71,8 +71,10 @@ li{
    top: 25%;
 } */
 .songs{
-    margin-top: 20px;
     z-index: 1;
+    display: grid;
+
+    grid-template-columns: auto ;
 }
 
 .song-details{
@@ -97,16 +99,13 @@ border-radius: 50%;
 #gif{
     opacity: 0;
     transition:opacity 0.5s ease-in;
-  position: absolute;
-  top: 93%;
-  left: 10%;
+    margin-top: 10px;
+  
 }
    
 
   .small-song-name{
-    position: absolute;
-    top: 93.3%;
-    left: 14%;
+  
     color: #fff;
     font-family: 'Varela Round';
   }
